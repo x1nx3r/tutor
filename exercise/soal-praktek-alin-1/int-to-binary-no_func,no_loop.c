@@ -13,29 +13,26 @@ int a,b,c,d,e,f,g,h;
 
 int main(){
     scanf("%d", &k);
-    a=k/2;
-    b=a/2;
-    c=b/2;
-    d=c/2;
-    e=d/2;
-    f=e/2;
-    g=f/2;
-    bin[0]=k%2;
-    bin[1]=a%2;
-    bin[2]=b%2;
-    bin[3]=c%2;
-    bin[4]=d%2;
-    bin[5]=e%2;
-    bin[6]=f%2;
-    bin[7]=g%2;
-    printf("%d", bin[7]);
-    printf("%d", bin[6]);
-    printf("%d", bin[5]);
-    printf("%d", bin[4]);
-    printf("%d", bin[3]);
-    printf("%d", bin[2]);
-    printf("%d", bin[1]);
-    printf("%d", bin[0]);
-
-
+    scanf("%d",&n);
+    if(n>8) {
+        printf("you've entered number higher than 8 please try again");
+    }   else {
+            a=k/2;
+            b=a/2;
+            c=b/2;
+            d=c/2;
+            e=d/2;
+            f=e/2;
+            g=f/2;
+            bin[7]=k%2;
+            bin[6]=a%2;
+            bin[5]=b%2;
+            bin[4]=c%2;
+            bin[3]=d%2;
+            bin[2]=e%2;
+            bin[1]=f%2;
+            bin[0]=g%2;
+            printf("%d",bin[n-1]);
+    }
+    return 0;
 }
