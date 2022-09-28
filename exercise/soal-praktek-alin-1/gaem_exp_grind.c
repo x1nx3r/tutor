@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <limits.h>
+//this is the final ver
 
 unsigned long long slm[2]={3, 6}, hlc[2]={4, 8}, aby[2]={5, 10};
 unsigned long long N, excess_value, aby_multiplier, hlc_multiplier, slm_multiplier;
