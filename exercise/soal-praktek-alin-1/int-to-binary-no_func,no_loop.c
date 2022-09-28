@@ -14,6 +14,10 @@ int a,b,c,d,e,f,g,h;
 int main(){
     scanf("%d", &k);
     scanf("%d",&n);
+    if (n>2147483647 && n<0){
+        printf ("Please enter a value between 0 till 2147483647");
+        return 0;
+    } else {}
     if(n>8) {
         printf("you've entered number higher than 8 please try again");
     }   else {
