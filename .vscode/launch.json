@@ -1,6 +1,6 @@
 {
     "version": "0.1.0",
-    "command": "make",
+    "command": "make -lm",
     "isShellCommand": true,
     "tasks": [
         {
@@ -13,7 +13,7 @@
             "showOutput": "always",
 
             // Pass 'all' as the build target
-            "args": ["all"],
+            "args": ["all","-lm"],
 
             // Use the standard less compilation problem matcher.
             "problemMatcher": {
@@ -31,6 +31,9 @@
         }
     ],
     "configurations": [
+
+
+
     
     ]
 }
