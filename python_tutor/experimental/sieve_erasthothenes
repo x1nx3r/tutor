@@ -11,7 +11,6 @@ def crt_array(maxlen):
 
 def if_prime(ifprime):
     isPrime=1
-    for i in range(2, ifprime):
         
 
 print(if_prime(9))
