@@ -7,7 +7,7 @@ import numpy as np
 x = np.linspace(-np.pi,np.pi,100)
 
 # the function, which is y = sin(x) here
-y = np.sin(x)/np.tan(x)
+y = np.sin(x)/np.tan(y)
 
 # setting the axes at the centre
 fig = plt.figure()
