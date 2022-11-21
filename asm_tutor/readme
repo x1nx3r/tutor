@@ -1,0 +1,20 @@
+Register codes :
+
+AL/AH/AX/EAX/RAX: Accumulator
+CL/CH/CX/ECX/RCX: Counter (for use with loops and strings)
+DL/DH/DX/EDX/RDX: Extend the precision of the accumulator (e.g. combine 32-bit EAX and EDX for 64-bit integer operations in 32-bit code)
+BL/BH/BX/EBX/RBX: Base index (for use with arrays)
+SP/ESP/RSP: Stack pointer for top address of the stack.
+BP/EBP/RBP: Stack base pointer for holding the address of the current stack frame.
+SI/ESI/RSI: Source index for string operations.
+DI/EDI/RDI: Destination index for string operations.
+IP/EIP/RIP: Instruction pointer. Holds the program counter, the address of next instruction.
+
+Segment Registers :
+
+    CS: Code
+    DS: Data
+    SS: Stack
+    ES: Extra data
+    FS: Extra data #2
+    GS: Extra data #3
